@@ -3,6 +3,7 @@ import Preloader from "../src/components/preloader/Preloader";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/footer/Footer";
 import Resume from "./components/Resume/ResumeNew";
@@ -41,7 +42,7 @@ function App() {
             <Route path="/project" element={<Projects />} />
             <Route path="/about" element={<About />} />
             <Route path="/resume" element={<Resume />} />
-            <Route path="/contact" element={<Resume />} />
+            <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           <Footer />
